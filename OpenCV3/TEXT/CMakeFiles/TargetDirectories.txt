@@ -1,0 +1,3 @@
+/home/wenjun/opencv-lena/TEXT/CMakeFiles/rebuild_cache.dir
+/home/wenjun/opencv-lena/TEXT/CMakeFiles/edit_cache.dir
+/home/wenjun/opencv-lena/TEXT/CMakeFiles/TEXT.dir

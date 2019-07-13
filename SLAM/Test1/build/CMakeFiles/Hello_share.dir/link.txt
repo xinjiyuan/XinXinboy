@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libHello_share.so -o libHello_share.so CMakeFiles/Hello_share.dir/libTest1.cpp.o 

@@ -1,0 +1,3 @@
+/home/wenjun/opencv-lena/11_19_DuquAVI/CMakeFiles/edit_cache.dir
+/home/wenjun/opencv-lena/11_19_DuquAVI/CMakeFiles/rebuild_cache.dir
+/home/wenjun/opencv-lena/11_19_DuquAVI/CMakeFiles/Shipin.dir

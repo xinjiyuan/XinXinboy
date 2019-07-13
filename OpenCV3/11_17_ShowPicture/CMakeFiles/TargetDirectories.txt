@@ -1,0 +1,3 @@
+/home/wenjun/opencv-lena/11_17_ShowPicture/CMakeFiles/rebuild_cache.dir
+/home/wenjun/opencv-lena/11_17_ShowPicture/CMakeFiles/edit_cache.dir
+/home/wenjun/opencv-lena/11_17_ShowPicture/CMakeFiles/11_17_ShowPicture.dir
