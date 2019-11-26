@@ -20,4 +20,5 @@ add_library(Hello_share SHARED libTest1.cpp)
 #调用共享库
 #生成一个可执行程序
 add_executable(useHello useHello.cpp)
+#链接库
 target_link_libraries(useHello Hello_share)

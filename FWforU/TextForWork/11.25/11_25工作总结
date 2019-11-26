@@ -1,0 +1,11 @@
+\documentclass[a4paper]{article}
+\usepackage{xtex}
+\title{11.25工作总结}
+\author{辛文钧}
+\begin{document}
+	\maketitle
+	\begin{itemize}
+		\item[1] 创建ros本地工作空间
+		\item[2] 测试在模拟环境中的摄像头使用
+	\end{itemize}
+\end{document}

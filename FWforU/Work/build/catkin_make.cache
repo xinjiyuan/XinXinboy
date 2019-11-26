@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/wenjun/桌面/XinXinboy/FWforU/Work/devel -DCMAKE_INSTALL_PREFIX=/home/wenjun/桌面/XinXinboy/FWforU/Work/install -G Unix Makefiles
