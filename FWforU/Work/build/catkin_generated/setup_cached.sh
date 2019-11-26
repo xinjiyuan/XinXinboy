@@ -7,8 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/wenjun/桌面/XinXinboy/FWforU/Work/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/wenjun/桌面/XinXinboy/FWforU/Work/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/wenjun/桌面/XinXinboy/FWforU/Work/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/wenjun/桌面/XinXinboy/FWforU/Work/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/wenjun/XinXinboy/FWforU/Work/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/wenjun/XinXinboy/FWforU/Work/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/wenjun/XinXinboy/FWforU/Work/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/wenjun/XinXinboy/FWforU/Work/src:$ROS_PACKAGE_PATH"
 export TURTLEBOT_3D_SENSOR="astra"

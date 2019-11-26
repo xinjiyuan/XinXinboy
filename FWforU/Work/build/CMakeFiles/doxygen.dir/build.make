@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wenjun/桌面/XinXinboy/FWforU/Work/src
+CMAKE_SOURCE_DIR = /home/wenjun/XinXinboy/FWforU/Work/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wenjun/桌面/XinXinboy/FWforU/Work/build
+CMAKE_BINARY_DIR = /home/wenjun/XinXinboy/FWforU/Work/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/wenjun/桌面/XinXinboy/FWforU/Work/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenjun/桌面/XinXinboy/FWforU/Work/src /home/wenjun/桌面/XinXinboy/FWforU/Work/src /home/wenjun/桌面/XinXinboy/FWforU/Work/build /home/wenjun/桌面/XinXinboy/FWforU/Work/build /home/wenjun/桌面/XinXinboy/FWforU/Work/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenjun/XinXinboy/FWforU/Work/src /home/wenjun/XinXinboy/FWforU/Work/src /home/wenjun/XinXinboy/FWforU/Work/build /home/wenjun/XinXinboy/FWforU/Work/build /home/wenjun/XinXinboy/FWforU/Work/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 
