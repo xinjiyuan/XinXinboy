@@ -2,4 +2,4 @@
 source_root_dir = "/home/wenjun/XinXinboy/FWforU/Work/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/opt/ros/kinetic".split(';') if "/opt/ros/kinetic" != "" else []
+underlay_workspaces = "/home/wenjun/XinXinboy/FWforU/Work/devel;/opt/ros/kinetic".split(';') if "/home/wenjun/XinXinboy/FWforU/Work/devel;/opt/ros/kinetic" != "" else []

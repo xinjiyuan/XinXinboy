@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: robots_move
+Description: Description of robots_move
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

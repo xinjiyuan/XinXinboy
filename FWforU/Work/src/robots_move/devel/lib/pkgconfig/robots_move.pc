@@ -1,0 +1,8 @@
+prefix=/home/wenjun/XinXinboy/FWforU/Work/src/robots_move/devel
+
+Name: robots_move
+Description: Description of robots_move
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/wenjun/XinXinboy/FWforU/Work/src/robots_move/devel/lib 
+Requires: 
