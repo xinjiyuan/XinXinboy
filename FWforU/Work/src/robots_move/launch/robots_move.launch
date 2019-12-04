@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="robots_move" type="move_goforward" name="move_goforward"/>
+    <!--type 可执行文件； name 节点名称-->
+</launch>
