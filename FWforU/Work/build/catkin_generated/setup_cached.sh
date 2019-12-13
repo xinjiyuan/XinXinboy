@@ -7,5 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu"
 export PWD="/home/wenjun/XinXinboy/FWforU/Work/build"
+export PYTHONPATH="/home/wenjun/XinXinboy/FWforU/Work/devel/lib/python2.7/dist-packages:$PYTHONPATH"
