@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD="/home/wenjun/XinXinboy/FWforU/Work/build"
-export PYTHONPATH="/home/wenjun/XinXinboy/FWforU/Work/devel/lib/python2.7/dist-packages:$PYTHONPATH"

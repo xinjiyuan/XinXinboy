@@ -686,6 +686,162 @@ beginner_tutorials_geneus/fast:
 .PHONY : beginner_tutorials_geneus/fast
 
 #=============================================================================
+# Target rules for targets named test_the_launch_genpy
+
+# Build rule for target.
+test_the_launch_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_the_launch_genpy
+.PHONY : test_the_launch_genpy
+
+# fast build rule for target.
+test_the_launch_genpy/fast:
+	$(MAKE) -f test_the_launch/CMakeFiles/test_the_launch_genpy.dir/build.make test_the_launch/CMakeFiles/test_the_launch_genpy.dir/build
+.PHONY : test_the_launch_genpy/fast
+
+#=============================================================================
+# Target rules for targets named test_the_launch_generate_messages_py
+
+# Build rule for target.
+test_the_launch_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_the_launch_generate_messages_py
+.PHONY : test_the_launch_generate_messages_py
+
+# fast build rule for target.
+test_the_launch_generate_messages_py/fast:
+	$(MAKE) -f test_the_launch/CMakeFiles/test_the_launch_generate_messages_py.dir/build.make test_the_launch/CMakeFiles/test_the_launch_generate_messages_py.dir/build
+.PHONY : test_the_launch_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named test_the_launch_generate_messages_cpp
+
+# Build rule for target.
+test_the_launch_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_the_launch_generate_messages_cpp
+.PHONY : test_the_launch_generate_messages_cpp
+
+# fast build rule for target.
+test_the_launch_generate_messages_cpp/fast:
+	$(MAKE) -f test_the_launch/CMakeFiles/test_the_launch_generate_messages_cpp.dir/build.make test_the_launch/CMakeFiles/test_the_launch_generate_messages_cpp.dir/build
+.PHONY : test_the_launch_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _test_the_launch_generate_messages_check_deps_Num
+
+# Build rule for target.
+_test_the_launch_generate_messages_check_deps_Num: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _test_the_launch_generate_messages_check_deps_Num
+.PHONY : _test_the_launch_generate_messages_check_deps_Num
+
+# fast build rule for target.
+_test_the_launch_generate_messages_check_deps_Num/fast:
+	$(MAKE) -f test_the_launch/CMakeFiles/_test_the_launch_generate_messages_check_deps_Num.dir/build.make test_the_launch/CMakeFiles/_test_the_launch_generate_messages_check_deps_Num.dir/build
+.PHONY : _test_the_launch_generate_messages_check_deps_Num/fast
+
+#=============================================================================
+# Target rules for targets named test_the_launch_generate_messages
+
+# Build rule for target.
+test_the_launch_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_the_launch_generate_messages
+.PHONY : test_the_launch_generate_messages
+
+# fast build rule for target.
+test_the_launch_generate_messages/fast:
+	$(MAKE) -f test_the_launch/CMakeFiles/test_the_launch_generate_messages.dir/build.make test_the_launch/CMakeFiles/test_the_launch_generate_messages.dir/build
+.PHONY : test_the_launch_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named test_the_launch_gennodejs
+
+# Build rule for target.
+test_the_launch_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_the_launch_gennodejs
+.PHONY : test_the_launch_gennodejs
+
+# fast build rule for target.
+test_the_launch_gennodejs/fast:
+	$(MAKE) -f test_the_launch/CMakeFiles/test_the_launch_gennodejs.dir/build.make test_the_launch/CMakeFiles/test_the_launch_gennodejs.dir/build
+.PHONY : test_the_launch_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named test_the_launch_generate_messages_eus
+
+# Build rule for target.
+test_the_launch_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_the_launch_generate_messages_eus
+.PHONY : test_the_launch_generate_messages_eus
+
+# fast build rule for target.
+test_the_launch_generate_messages_eus/fast:
+	$(MAKE) -f test_the_launch/CMakeFiles/test_the_launch_generate_messages_eus.dir/build.make test_the_launch/CMakeFiles/test_the_launch_generate_messages_eus.dir/build
+.PHONY : test_the_launch_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named test_the_launch_gencpp
+
+# Build rule for target.
+test_the_launch_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_the_launch_gencpp
+.PHONY : test_the_launch_gencpp
+
+# fast build rule for target.
+test_the_launch_gencpp/fast:
+	$(MAKE) -f test_the_launch/CMakeFiles/test_the_launch_gencpp.dir/build.make test_the_launch/CMakeFiles/test_the_launch_gencpp.dir/build
+.PHONY : test_the_launch_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named test_the_launch_geneus
+
+# Build rule for target.
+test_the_launch_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_the_launch_geneus
+.PHONY : test_the_launch_geneus
+
+# fast build rule for target.
+test_the_launch_geneus/fast:
+	$(MAKE) -f test_the_launch/CMakeFiles/test_the_launch_geneus.dir/build.make test_the_launch/CMakeFiles/test_the_launch_geneus.dir/build
+.PHONY : test_the_launch_geneus/fast
+
+#=============================================================================
+# Target rules for targets named test_the_launch_generate_messages_lisp
+
+# Build rule for target.
+test_the_launch_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_the_launch_generate_messages_lisp
+.PHONY : test_the_launch_generate_messages_lisp
+
+# fast build rule for target.
+test_the_launch_generate_messages_lisp/fast:
+	$(MAKE) -f test_the_launch/CMakeFiles/test_the_launch_generate_messages_lisp.dir/build.make test_the_launch/CMakeFiles/test_the_launch_generate_messages_lisp.dir/build
+.PHONY : test_the_launch_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named test_the_launch_genlisp
+
+# Build rule for target.
+test_the_launch_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_the_launch_genlisp
+.PHONY : test_the_launch_genlisp
+
+# fast build rule for target.
+test_the_launch_genlisp/fast:
+	$(MAKE) -f test_the_launch/CMakeFiles/test_the_launch_genlisp.dir/build.make test_the_launch/CMakeFiles/test_the_launch_genlisp.dir/build
+.PHONY : test_the_launch_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named test_the_launch_generate_messages_nodejs
+
+# Build rule for target.
+test_the_launch_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_the_launch_generate_messages_nodejs
+.PHONY : test_the_launch_generate_messages_nodejs
+
+# fast build rule for target.
+test_the_launch_generate_messages_nodejs/fast:
+	$(MAKE) -f test_the_launch/CMakeFiles/test_the_launch_generate_messages_nodejs.dir/build.make test_the_launch/CMakeFiles/test_the_launch_generate_messages_nodejs.dir/build
+.PHONY : test_the_launch_generate_messages_nodejs/fast
+
+#=============================================================================
 # Target rules for targets named move_goforward
 
 # Build rule for target.
@@ -1206,6 +1362,18 @@ help:
 	@echo "... beginner_tutorials_generate_messages_eus"
 	@echo "... beginner_tutorials_generate_messages_lisp"
 	@echo "... beginner_tutorials_geneus"
+	@echo "... test_the_launch_genpy"
+	@echo "... test_the_launch_generate_messages_py"
+	@echo "... test_the_launch_generate_messages_cpp"
+	@echo "... _test_the_launch_generate_messages_check_deps_Num"
+	@echo "... test_the_launch_generate_messages"
+	@echo "... test_the_launch_gennodejs"
+	@echo "... test_the_launch_generate_messages_eus"
+	@echo "... test_the_launch_gencpp"
+	@echo "... test_the_launch_geneus"
+	@echo "... test_the_launch_generate_messages_lisp"
+	@echo "... test_the_launch_genlisp"
+	@echo "... test_the_launch_generate_messages_nodejs"
 	@echo "... move_goforward"
 	@echo "... tf2_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_eus"

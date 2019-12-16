@@ -1,0 +1,8 @@
+prefix=/home/wenjun/XinXinboy/FWforU/Work/devel
+
+Name: testlaunch
+Description: Description of testlaunch
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/wenjun/XinXinboy/FWforU/Work/devel/lib 
+Requires: 

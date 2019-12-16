@@ -341,6 +341,12 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
+//Value Computed by CMake
+jast_for_test_BINARY_DIR:STATIC=/home/wenjun/XinXinboy/FWforU/Work/build/jast_for_test
+
+//Value Computed by CMake
+jast_for_test_SOURCE_DIR:STATIC=/home/wenjun/XinXinboy/FWforU/Work/src/jast_for_test
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libtf2.so
 
@@ -395,8 +401,23 @@ rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
 //The directory containing a CMake configuration file for sensor_msgs.
 sensor_msgs_DIR:PATH=/opt/ros/kinetic/share/sensor_msgs/cmake
 
+//The directory containing a CMake configuration file for std_msg.
+std_msg_DIR:PATH=std_msg_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
+
+//Value Computed by CMake
+test_the_launch_BINARY_DIR:STATIC=/home/wenjun/XinXinboy/FWforU/Work/build/test_the_launch
+
+//Value Computed by CMake
+test_the_launch_SOURCE_DIR:STATIC=/home/wenjun/XinXinboy/FWforU/Work/src/test_the_launch
+
+//Value Computed by CMake
+testlaunch_BINARY_DIR:STATIC=/home/wenjun/XinXinboy/FWforU/Work/build/testlaunch
+
+//Value Computed by CMake
+testlaunch_SOURCE_DIR:STATIC=/home/wenjun/XinXinboy/FWforU/Work/src/testlaunch
 
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/kinetic/share/tf2/cmake
@@ -518,7 +539,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
