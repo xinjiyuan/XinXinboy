@@ -205,3 +205,21 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+##Build move_test
+add_executable(turn_arround src/turn_arround.cpp)
+target_link_libraries(turn_arround ${catkin_LIBRARIES})
+add_dependencies(turn_arround robots_move_test_turn_arround_cpp)
+
+##Build change_speed
+add_executable(change_speed src/change_speed.cpp)
+target_link_libraries(change_speed ${catkin_LIBRARIES})
+add_dependencies(change_speed robots_move_test_change_speed_cpp)
+
+# add_executable(pub_poseStamped src/pub_poseStamped.cpp)
+# target_link_libraries(pub_poseStamped ${catkin_LIBRARIES})
+# add_dependencies(pub_poseStamped beginner_tutorials_pub_poseStamped)
+
+# add_executable(sub_poseStamped src/sub_poseStamped.cpp)
+# target_link_libraries(sub_poseStamped ${catkin_LIBRARIES})
+# add_dependencies(sub_poseStamped beginner_tutorials_sub_poseStamped)

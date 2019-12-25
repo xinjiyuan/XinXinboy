@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "robots_move_test")
-set(robots_move_test_VERSION "0.0.0")
+set(robots_move_test_VERSION "1.2.4")
 set(robots_move_test_MAINTAINER "wenjun <wenjun@todo.todo>")
 set(robots_move_test_PACKAGE_FORMAT "2")
 set(robots_move_test_BUILD_DEPENDS "geometry_msgs" "nav_msgs" "roscpp" "tf")

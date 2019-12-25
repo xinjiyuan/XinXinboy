@@ -56,6 +56,28 @@ CMAKE_BINARY_DIR = /home/wenjun/XinXinboy/FWforU/Work/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -100,17 +122,6 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -121,17 +132,6 @@ test:
 test/fast: test
 
 .PHONY : test/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -181,21 +181,6 @@ nav_msgs_generate_messages_lisp/fast:
 .PHONY : nav_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
-robots_move_test/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f CMakeFiles/Makefile2 robots_move_test/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
-.PHONY : robots_move_test/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_nodejs: robots_move_test/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : nav_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-nav_msgs_generate_messages_nodejs/fast:
-	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f robots_move_test/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make robots_move_test/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
-.PHONY : nav_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
 robots_move_test/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
 	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f CMakeFiles/Makefile2 robots_move_test/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 .PHONY : robots_move_test/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
@@ -226,6 +211,51 @@ nav_msgs_generate_messages_py/fast:
 .PHONY : nav_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+robots_move_test/CMakeFiles/turn_arround.dir/rule:
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f CMakeFiles/Makefile2 robots_move_test/CMakeFiles/turn_arround.dir/rule
+.PHONY : robots_move_test/CMakeFiles/turn_arround.dir/rule
+
+# Convenience name for target.
+turn_arround: robots_move_test/CMakeFiles/turn_arround.dir/rule
+
+.PHONY : turn_arround
+
+# fast build rule for target.
+turn_arround/fast:
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f robots_move_test/CMakeFiles/turn_arround.dir/build.make robots_move_test/CMakeFiles/turn_arround.dir/build
+.PHONY : turn_arround/fast
+
+# Convenience name for target.
+robots_move_test/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f CMakeFiles/Makefile2 robots_move_test/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+.PHONY : robots_move_test/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+nav_msgs_generate_messages_nodejs: robots_move_test/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : nav_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+nav_msgs_generate_messages_nodejs/fast:
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f robots_move_test/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make robots_move_test/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
+.PHONY : nav_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+robots_move_test/CMakeFiles/change_speed.dir/rule:
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f CMakeFiles/Makefile2 robots_move_test/CMakeFiles/change_speed.dir/rule
+.PHONY : robots_move_test/CMakeFiles/change_speed.dir/rule
+
+# Convenience name for target.
+change_speed: robots_move_test/CMakeFiles/change_speed.dir/rule
+
+.PHONY : change_speed
+
+# fast build rule for target.
+change_speed/fast:
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f robots_move_test/CMakeFiles/change_speed.dir/build.make robots_move_test/CMakeFiles/change_speed.dir/build
+.PHONY : change_speed/fast
+
+# Convenience name for target.
 robots_move_test/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
 	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f CMakeFiles/Makefile2 robots_move_test/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : robots_move_test/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
@@ -240,24 +270,86 @@ nav_msgs_generate_messages_cpp/fast:
 	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f robots_move_test/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make robots_move_test/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
 .PHONY : nav_msgs_generate_messages_cpp/fast
 
+src/change_speed.o: src/change_speed.cpp.o
+
+.PHONY : src/change_speed.o
+
+# target to build an object file
+src/change_speed.cpp.o:
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f robots_move_test/CMakeFiles/change_speed.dir/build.make robots_move_test/CMakeFiles/change_speed.dir/src/change_speed.cpp.o
+.PHONY : src/change_speed.cpp.o
+
+src/change_speed.i: src/change_speed.cpp.i
+
+.PHONY : src/change_speed.i
+
+# target to preprocess a source file
+src/change_speed.cpp.i:
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f robots_move_test/CMakeFiles/change_speed.dir/build.make robots_move_test/CMakeFiles/change_speed.dir/src/change_speed.cpp.i
+.PHONY : src/change_speed.cpp.i
+
+src/change_speed.s: src/change_speed.cpp.s
+
+.PHONY : src/change_speed.s
+
+# target to generate assembly for a file
+src/change_speed.cpp.s:
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f robots_move_test/CMakeFiles/change_speed.dir/build.make robots_move_test/CMakeFiles/change_speed.dir/src/change_speed.cpp.s
+.PHONY : src/change_speed.cpp.s
+
+src/turn_arround.o: src/turn_arround.cpp.o
+
+.PHONY : src/turn_arround.o
+
+# target to build an object file
+src/turn_arround.cpp.o:
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f robots_move_test/CMakeFiles/turn_arround.dir/build.make robots_move_test/CMakeFiles/turn_arround.dir/src/turn_arround.cpp.o
+.PHONY : src/turn_arround.cpp.o
+
+src/turn_arround.i: src/turn_arround.cpp.i
+
+.PHONY : src/turn_arround.i
+
+# target to preprocess a source file
+src/turn_arround.cpp.i:
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f robots_move_test/CMakeFiles/turn_arround.dir/build.make robots_move_test/CMakeFiles/turn_arround.dir/src/turn_arround.cpp.i
+.PHONY : src/turn_arround.cpp.i
+
+src/turn_arround.s: src/turn_arround.cpp.s
+
+.PHONY : src/turn_arround.s
+
+# target to generate assembly for a file
+src/turn_arround.cpp.s:
+	cd /home/wenjun/XinXinboy/FWforU/Work/build && $(MAKE) -f robots_move_test/CMakeFiles/turn_arround.dir/build.make robots_move_test/CMakeFiles/turn_arround.dir/src/turn_arround.cpp.s
+.PHONY : src/turn_arround.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... list_install_components"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... nav_msgs_generate_messages_nodejs"
 	@echo "... nav_msgs_generate_messages_eus"
 	@echo "... install"
 	@echo "... nav_msgs_generate_messages_py"
-	@echo "... edit_cache"
+	@echo "... turn_arround"
+	@echo "... nav_msgs_generate_messages_nodejs"
+	@echo "... change_speed"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... test"
-	@echo "... rebuild_cache"
+	@echo "... src/change_speed.o"
+	@echo "... src/change_speed.i"
+	@echo "... src/change_speed.s"
+	@echo "... src/turn_arround.o"
+	@echo "... src/turn_arround.i"
+	@echo "... src/turn_arround.s"
 .PHONY : help
 
 

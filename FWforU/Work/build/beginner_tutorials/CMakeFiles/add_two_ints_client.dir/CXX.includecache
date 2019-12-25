@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wenjun/XinXinboy/FWforU/Work/devel/include/./beginner_tutorials/AddTwoInts2.h
+/home/wenjun/XinXinboy/FWforU/Work/devel/include/beginner_tutorials/AddTwoInts2.h
 ros/service_traits.h
 -
 beginner_tutorials/AddTwoInts2Request.h
@@ -49,8 +49,8 @@ ros/message_operations.h
 /home/wenjun/XinXinboy/FWforU/Work/src/beginner_tutorials/src/add_two_ints_client.cpp
 ros/ros.h
 /home/wenjun/XinXinboy/FWforU/Work/src/beginner_tutorials/src/ros/ros.h
-./beginner_tutorials/AddTwoInts2.h
-/home/wenjun/XinXinboy/FWforU/Work/src/beginner_tutorials/src/./beginner_tutorials/AddTwoInts2.h
+beginner_tutorials/AddTwoInts2.h
+/home/wenjun/XinXinboy/FWforU/Work/src/beginner_tutorials/src/beginner_tutorials/AddTwoInts2.h
 cstdlib
 -
 

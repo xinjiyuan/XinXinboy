@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "robots_move_test"
 PROJECT_SPACE_DIR = "/home/wenjun/XinXinboy/FWforU/Work/devel"
-PROJECT_VERSION = "0.0.0"
+PROJECT_VERSION = "1.2.4"

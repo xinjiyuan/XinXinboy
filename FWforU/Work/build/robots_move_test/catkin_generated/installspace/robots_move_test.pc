@@ -2,7 +2,7 @@ prefix=/home/wenjun/XinXinboy/FWforU/Work/install
 
 Name: robots_move_test
 Description: Description of robots_move_test
-Version: 0.0.0
+Version: 1.2.4
 Cflags: 
 Libs: -L/home/wenjun/XinXinboy/FWforU/Work/install/lib 
 Requires: 

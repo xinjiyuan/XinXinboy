@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   genmsg
   message_generation
+  geometry_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -225,3 +226,23 @@ add_dependencies(add_two_ints_server beginner_tutorials_gencpp)
 add_executable(add_two_ints_client src/add_two_ints_client.cpp)
 target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
 add_dependencies(add_two_ints_client beginner_tutorials_gencpp)
+
+#Build poseStamped
+
+add_executable(pub_poseStamped src/pub_poseStamped.cpp)
+target_link_libraries(pub_poseStamped ${catkin_LIBRARIES})
+add_dependencies(pub_poseStamped beginner_tutorials_pub_poseStamped)
+
+add_executable(sub_poseStamped src/sub_poseStamped.cpp)
+target_link_libraries(sub_poseStamped ${catkin_LIBRARIES})
+add_dependencies(sub_poseStamped beginner_tutorials_sub_poseStamped)
+
+#Build calss file
+
+add_executable(pub_int8_class src/pub_int8_class.cpp)
+target_link_libraries(pub_int8_class ${catkin_LIBRARIES})
+# add_dependencies(pub_int8_class beginner_tutorials_pub_int8_class)
+
+add_executable(sub_int8_class src/sub_int8_class.cpp)
+target_link_libraries(sub_int8_class ${catkin_LIBRARIES})
+# add_dependencies(sub_int8_class beginner_tutorials_sub_int8_class)
