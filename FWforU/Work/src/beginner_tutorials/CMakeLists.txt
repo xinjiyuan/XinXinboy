@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(beginner_tutorials)
 
+find_package(OpenCV REQUIRED)
+find_package(OpenMP REQUIRED)
+
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
 
@@ -14,6 +17,14 @@ find_package(catkin REQUIRED COMPONENTS
   genmsg
   message_generation
   geometry_msgs
+  sensor_msgs
+  cv_bridge
+  image_transport
+  
+  rostime
+  message_filters
+  compressed_image_transport
+  compressed_depth_image_transport
 )
 
 ## System dependencies are found with CMake's conventions
@@ -121,6 +132,9 @@ catkin_package(
 include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
+  ${OpenCV_INCLUDE_DIRS}
+
+  ${kinect2_bridge_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
@@ -246,3 +260,16 @@ target_link_libraries(pub_int8_class ${catkin_LIBRARIES})
 add_executable(sub_int8_class src/sub_int8_class.cpp)
 target_link_libraries(sub_int8_class ${catkin_LIBRARIES})
 # add_dependencies(sub_int8_class beginner_tutorials_sub_int8_class)
+
+#Build image_sub(data_sub.cpp)
+# add_executable(data_sub src/data_sub.cpp)
+# target_link_libraries(data_sub ${catkin_LIBRARIES})
+# add_dependencies(data_sub beginner_tutorials_data_sub)
+
+# add_executable(save_rgbd_from_kinect2 src/save_rgbd_from_kinect2.cpp)
+# target_link_libraries(save_rgbd_from_kinect2
+# 	${catkin_LIBRARIES}
+# 	${OpenCV_LIBRARIES}
+	 
+# 	${kinect2_bridge_LIBRARIES}
+# )
