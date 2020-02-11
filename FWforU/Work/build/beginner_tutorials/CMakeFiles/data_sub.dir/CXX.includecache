@@ -17,6 +17,8 @@ cv_bridge/cv_bridge.h
 /home/wenjun/XinXinboy/FWforU/Work/src/beginner_tutorials/src/cv_bridge/cv_bridge.h
 image_transport/image_transport.h
 /home/wenjun/XinXinboy/FWforU/Work/src/beginner_tutorials/src/image_transport/image_transport.h
+sensor_msgs/Image.h
+/home/wenjun/XinXinboy/FWforU/Work/src/beginner_tutorials/src/sensor_msgs/Image.h
 
 /opt/ros/kinetic/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h

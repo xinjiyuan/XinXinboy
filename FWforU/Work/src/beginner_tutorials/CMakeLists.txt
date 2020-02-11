@@ -273,3 +273,23 @@ target_link_libraries(sub_int8_class ${catkin_LIBRARIES})
 	 
 # 	${kinect2_bridge_LIBRARIES}
 # )
+
+# Build pub_imageTransport_1
+add_executable(pub_imageTransport_1 src/pub_imageTransport_1.cpp)
+target_link_libraries(pub_imageTransport_1 ${catkin_LIBRARIES})
+add_dependencies(pub_imageTransport_1 beginner_tutorials_pub_imageTransport_1)
+
+# Build pub_imageTransport_1
+add_executable(pub_imageTransport2 src/pub_imageTransport2.cpp)
+target_link_libraries(pub_imageTransport2 ${catkin_LIBRARIES})
+add_dependencies(pub_imageTransport2 beginner_tutorials_pub_imageTransport2)
+
+# Build sub_imageTransport
+add_executable(sub_imageTransport src/sub_imageTransport.cpp)
+target_link_libraries(sub_imageTransport ${catkin_LIBRARIES})
+# add_dependencies(sub_imageTransport beginner_tutorials_sub_imageTransport)
+
+# Build sub_cv_bridge
+add_executable(sub_cv_bridge src/sub_cv_bridge.cpp)
+target_link_libraries(sub_cv_bridge ${catkin_LIBRARIES})
+# add_dependencies(sub_cv_bridge beginner_tutorials_sub_cv_bridge)

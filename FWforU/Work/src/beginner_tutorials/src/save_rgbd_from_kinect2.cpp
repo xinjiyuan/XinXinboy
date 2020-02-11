@@ -8,6 +8,7 @@
  * 
  * maker:crp
  * 2017-5-13
+ * 版本不同，无法使用
  */
 
 #include<iostream>
