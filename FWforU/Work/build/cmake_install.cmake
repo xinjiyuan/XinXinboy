@@ -130,6 +130,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/wenjun/XinXinboy/FWforU/Work/build/beginner_tutorials/cmake_install.cmake")
   include("/home/wenjun/XinXinboy/FWforU/Work/build/robots_move/cmake_install.cmake")
   include("/home/wenjun/XinXinboy/FWforU/Work/build/robots_move_test/cmake_install.cmake")
+  include("/home/wenjun/XinXinboy/FWforU/Work/build/test_gazebo_world/cmake_install.cmake")
 
 endif()
 

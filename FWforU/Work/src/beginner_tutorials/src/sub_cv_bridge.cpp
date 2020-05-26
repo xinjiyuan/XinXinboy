@@ -16,7 +16,7 @@ class ImageConverter
 public:
     ImageConverter(): it_(nh_)
     {
-        image_sub_ = it_.subscribe("/camera/rgb/image_raw", 1, &ImageConverter::imageCb, this);
+        image_sub_ = it_.subscribe("camera/image", 1, &ImageConverter::imageCb, this);
         /*
         * /camera/rgb/image_raw
         * /camera/image_raw

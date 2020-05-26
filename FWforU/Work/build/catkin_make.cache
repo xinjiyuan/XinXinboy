@@ -1,2 +1,2 @@
-beginner_tutorials:robots_move:robots_move_test:test_the_launch
+beginner_tutorials:robots_move:robots_move_test:test_gazebo_world:test_the_launch
 -DCATKIN_DEVEL_PREFIX=/home/wenjun/XinXinboy/FWforU/Work/devel -DCMAKE_INSTALL_PREFIX=/home/wenjun/XinXinboy/FWforU/Work/install -G Unix Makefiles

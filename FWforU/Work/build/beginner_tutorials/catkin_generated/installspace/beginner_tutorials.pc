@@ -3,6 +3,6 @@ prefix=/home/wenjun/XinXinboy/FWforU/Work/install
 Name: beginner_tutorials
 Description: Description of beginner_tutorials
 Version: 0.0.0
-Cflags: -I/home/wenjun/XinXinboy/FWforU/Work/install/include
-Libs: -L/home/wenjun/XinXinboy/FWforU/Work/install/lib 
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
 Requires: 

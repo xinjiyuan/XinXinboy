@@ -3,6 +3,6 @@ prefix=/home/wenjun/XinXinboy/FWforU/Work/install
 Name: test_the_launch
 Description: Description of test_the_launch
 Version: 0.0.0
-Cflags: -I/home/wenjun/XinXinboy/FWforU/Work/install/include
-Libs: -L/home/wenjun/XinXinboy/FWforU/Work/install/lib 
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
 Requires: message_runtime

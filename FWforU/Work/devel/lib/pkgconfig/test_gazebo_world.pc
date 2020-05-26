@@ -1,0 +1,8 @@
+prefix=/home/wenjun/XinXinboy/FWforU/Work/devel
+
+Name: test_gazebo_world
+Description: Description of test_gazebo_world
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
