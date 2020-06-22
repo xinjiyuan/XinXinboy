@@ -5,7 +5,7 @@
 #include <iostream>
 #include <sstream>
 #include <string>
-//save img
+//save img to "/home/wenjun/ros_image/rgb/"
 int i = 1;
 
 void imageCallback(const sensor_msgs::ImageConstPtr& msg)
