@@ -11,6 +11,7 @@ int main()
 {
     //Eigen/Geometry提供各种旋转和平移表示
     Eigen::Matrix3d rotation_matrix = Eigen::Matrix3d::Identity();
+    Eigen::Matrix3f a;
     //3d旋转矩阵直接用Matrix3d或Matrix3f
     //旋转向量用AngleAxisd,其底层不是matrix,但运算可当做矩阵
     Eigen::AngleAxisd rotation_vector (M_PI/4, Eigen::Vector3d(0,0,1));//沿z轴旋转45度

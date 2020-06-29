@@ -1,4 +1,4 @@
-# Install script for directory: /home/wenjun/桌面/Code/SLAM/Eigen
+# Install script for directory: /home/wenjun/XinXinboy/SLAM/Eigen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/wenjun/桌面/Code/SLAM/Eigen/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/wenjun/XinXinboy/SLAM/Eigen/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

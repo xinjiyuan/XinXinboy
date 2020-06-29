@@ -7,7 +7,10 @@ project(Geometry)
 #设置编译模式
 set(CMAKE_BUILD_TYPE "Debug")
 
+#添加Eigen头文件
+include_directories("/usr/include/eigen3")
+
 #添加一个可执行程序
 #语法: add_executable(程序名 源代码文件)
 add_executable(useGeometry useGeometry.cpp)
-include_directories("/usr/include/eigen3")
+

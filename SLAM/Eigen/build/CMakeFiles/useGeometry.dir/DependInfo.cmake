@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wenjun/桌面/Code/SLAM/Eigen/useGeometry.cpp" "/home/wenjun/桌面/Code/SLAM/Eigen/build/CMakeFiles/useGeometry.dir/useGeometry.cpp.o"
+  "/home/wenjun/XinXinboy/SLAM/Eigen/useGeometry.cpp" "/home/wenjun/XinXinboy/SLAM/Eigen/build/CMakeFiles/useGeometry.dir/useGeometry.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

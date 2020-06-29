@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wenjun/桌面/Code/SLAM/UseEigen/eigenMatrix.cpp" "/home/wenjun/桌面/Code/SLAM/UseEigen/build/CMakeFiles/EigenMatrix.dir/eigenMatrix.cpp.o"
+  "/home/wenjun/XinXinboy/SLAM/UseEigen/eigenMatrix.cpp" "/home/wenjun/XinXinboy/SLAM/UseEigen/build/CMakeFiles/EigenMatrix.dir/eigenMatrix.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
